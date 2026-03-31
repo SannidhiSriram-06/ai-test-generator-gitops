@@ -1,0 +1,22 @@
+replicaCount: 1
+
+image:
+  repository: 940031346109.dkr.ecr.ap-south-1.amazonaws.com/ai-test-generator
+  tag: "latest"
+  pullPolicy: Always
+
+service:
+  type: NodePort
+  port: 8000
+  nodePort: 30080
+
+env:
+  GROQ_API_KEY: "placeholder"
+
+resources:
+  requests:
+    memory: "256Mi"
+    cpu: "250m"
+  limits:
+    memory: "512Mi"
+    cpu: "500m"

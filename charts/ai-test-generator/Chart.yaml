@@ -1,0 +1,6 @@
+apiVersion: v2
+name: ai-test-generator
+description: AI Test Generator - FastAPI app with Groq API
+type: application
+version: 0.1.0
+appVersion: "1.0.0"

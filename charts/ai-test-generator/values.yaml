@@ -2,7 +2,7 @@ replicaCount: 1
 
 image:
   repository: 940031346109.dkr.ecr.ap-south-1.amazonaws.com/ai-test-generator
-  tag: "latest"
+  tag: "v1.0.0"
   pullPolicy: Always
 
 service:
